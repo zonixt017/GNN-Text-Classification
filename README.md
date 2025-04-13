@@ -2,11 +2,13 @@
 Text Classification using Graph Neural Network(GNN)
 
 What does it classify? : News articles as Input text
+
 Dataset used : AG News Dataset ( From Hugging Face)
+
 Run on : Google Colab
 
 **********************************************************************************************************************************************
-#Steps on Running it in GColab:
+# Steps on Running it in GColab:
 
 -> Mounts the GDrive(For any doubts refer to any instructions online)
 from google.colab import drive
