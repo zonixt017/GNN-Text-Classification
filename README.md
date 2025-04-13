@@ -58,4 +58,8 @@ Here I am going to include all the files that I have pulled from the Colab Noteb
 
 ***********************************************************************************************************************************************
 
+# Result
 
+Predicts the user input text to 4 different labels: 1. World, 2. Business, 3. Sports, 4. Sci/Tech
+
+If the confidence score is low, you can keep training the model or if not, go through all the code to make changes.
