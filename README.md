@@ -10,36 +10,46 @@ Run on : Google Colab
 **********************************************************************************************************************************************
 # Steps on Running it in GColab:
 
--> Mounts the GDrive(For any doubts refer to any instructions online)
+* Mounts the GDrive(For any doubts refer to any instructions online)
 
-from google.colab import drive
+> from google.colab import drive
 
-drive.mount('')
+> drive.mount('')
 
-%cd 'path'
+> %cd 'path'
 
-!ls
+> !ls
 
--> Installs the requirements
-!pip install torch torch-geometric scikit-learn transformers
-!pip install datasets
-!pip install tqdm
+* Installs the requirements
 
--> Downloads the needed data
-!python data_download.py
+> !pip install torch torch-geometric scikit-learn transformers
 
--> The initial train module. No need to run a second time, since it downloads some dependencies and other for the model
-!python train.py
+> !pip install datasets
 
--> The main training module. Can be run again and again for increasing prediction confidence 
-!python off_train.py
+> !pip install tqdm
 
--> A test non-gui version of main file
-!python predict.py
+* Downloads the needed data
 
--> Dependecy for GUI
-!pip install gradio
+> !python data_download.py
 
--> Gui version of classifier
-!python gui_predict.py
+* The initial train module. No need to run a second time, since it downloads some dependencies and other for the model
+
+> !python train.py
+
+* The main training module. Can be run again and again for increasing prediction confidence 
+
+> !python off_train.py
+
+* A test non-gui version of main file
+
+> !python predict.py
+
+* Dependecy for GUI
+
+> !pip install gradio
+
+* Gui version of classifier
+
+> !python gui_predict.py
+
 ***********************************************************************************************************************************************
