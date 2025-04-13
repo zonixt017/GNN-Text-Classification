@@ -7,6 +7,10 @@ Dataset used : AG News Dataset ( From Hugging Face)
 
 Run on : Google Colab
 
+# Repo Info
+
+Here I am going to include all the files that I have pulled from the Colab Notebook, which includes the model and dataset. If you wish you can delete it, as all the modules here help create a new model, and download the new dataset. Or you can keep it, but no harm in keeping it new. 
+
 **********************************************************************************************************************************************
 # Steps on Running it in GColab:
 
@@ -53,3 +57,5 @@ Run on : Google Colab
 > !python gui_predict.py
 
 ***********************************************************************************************************************************************
+
+
