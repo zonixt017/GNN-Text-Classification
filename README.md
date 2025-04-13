@@ -11,10 +11,13 @@ Run on : Google Colab
 # Steps on Running it in GColab:
 
 -> Mounts the GDrive(For any doubts refer to any instructions online)
+
 from google.colab import drive
+
 drive.mount('')
 
 %cd 'path'
+
 !ls
 
 -> Installs the requirements
